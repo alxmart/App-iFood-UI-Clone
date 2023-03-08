@@ -7,6 +7,14 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/vale"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="70dp"
         android:layout_height="35dp"
@@ -53,8 +61,25 @@
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/mercado"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/pizza"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="170dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
