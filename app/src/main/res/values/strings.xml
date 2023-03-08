@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Criando Layout iFood</string>
+    <string name="btn_retirar_text">para retirar</string>
+    <string name="btn_entrega_text">entrega grátis</string>
+    <string name="iv_logo_text_cont">Logo</string>
+    <string name="tv_endereco_text">Rua Almeida Filho, 1015</string>
+    <string name="iv_mercado_text_cont">Imagem de carrinho mercado</string>
+    <string name="iv_pizza_text_cont">Imagem de um pedaço de pizza</string>
+    <string name="iv_destaque_text_cont">Imagem café da manhã</string>
+    <string name="iv_vale_text_cont">Imagem de um vale refeição</string>
 </resources>
